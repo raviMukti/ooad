@@ -1,0 +1,28 @@
+.wrappNav{
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+    align-items: center;
+}
+
+.btnNav{
+    margin: 5px;
+}
+
+#pipe{
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .wrappNav{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+    }
+
+    .btnNav{
+        width: 100%;
+    }
+}
